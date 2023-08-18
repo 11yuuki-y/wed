@@ -1,0 +1,497 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+body {
+  font-size: 0.875rem;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-weight: normal;
+  letter-spacing: 0.3em;
+  margin: 0;
+}
+
+.sub-title {
+  margin: 0;
+}
+
+#section-title::after {
+  content: "";
+  width: 40px;
+  height: 1px;
+  background-color: black;
+  display: block;
+  margin: 30px 0px;
+}
+
+#sectiontitle::after {
+  content: "";
+  width: 40px;
+  height: 1px;
+  background-color: black;
+  display: block;
+  margin: 30px 0px;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+nav > div {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+nav > div > ul {
+  display: flex;
+  align-items: center;
+}
+
+nav > div > ul > li > a:link {
+  color: black;
+}
+
+nav > div > ul > li > a:visited {
+  color: black;
+}
+
+nav > div > ul > li > a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+nav > div > ul > li > a:active {
+  color: black;
+}
+
+#top {
+  width: 100px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+nav > div > ul > li {
+  margin-right: 30px;
+}
+
+.call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 164px;
+  height: 80px;
+  color: white;
+  font-size: 12px;
+}
+
+/* main */
+#main-visual {
+  height: 640px;
+  margin-bottom: 120px;
+}
+
+#main-visual > img {
+  width: 100%;
+  height: 640px;
+  object-fit: cover;
+}
+
+/* NEWS */
+#NEWS {
+  margin-bottom: 120px;
+  padding: 0 1rem;
+}
+
+#NEWS > ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+#NEWS > ul > li > div > span {
+  color: white;
+  background-color: black;
+  padding: 3px;
+  font-weight: lighter;
+  margin-left: 10px;
+}
+
+#news {
+  border-right: 1.2px solid black;
+  height: 70px;
+  margin-top: 25px;
+  padding-top: 10px;
+  padding-right: 150px;
+}
+
+#press {
+  border-right: 1.2px solid black;
+  height: 70px;
+  margin-top: 25px;
+  padding-top: 10px;
+  padding-right: 150px;
+  margin-left: 30px;
+}
+
+#secondnews {
+  height: 70px;
+  margin-top: 25px;
+  padding-top: 10px;
+  margin-left: 30px;
+}
+
+/*  ABOUT */
+#ABOUT {
+  margin-bottom: 120px;
+}
+
+#ABOUT > div {
+  display: flex;
+}
+
+#ABOUT > div > img {
+  width: 55%;
+  height: 400px;
+  object-fit: cover;
+}
+
+#ABOUT > div > div {
+  margin-left: 40px;
+  margin-top: 160px;
+}
+
+#ABOUT > div > div > p {
+  line-height: 2em;
+}
+
+/* BUSINESS */
+#BUSINESS {
+  margin-bottom: 120px;
+  padding: 0 1rem;
+}
+
+#business-introduction {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#business-left {
+  margin-top: 100px;
+  padding-right: 20px;
+}
+
+#business-right {
+  margin-bottom: 100px;
+  padding-left: 20px;
+}
+
+#business-left > div {
+  width: 360px;
+  margin-bottom: 50px;
+}
+
+#business-right > div {
+  width: 360px;
+  margin-bottom: 50px;
+}
+
+#business-left > div > h3 {
+  font-size: 0.875rem;
+  margin-left: 18px;
+  margin-bottom: 10px;
+}
+
+#business-right > div > h3 {
+  font-size: 0.875rem;
+  margin-left: 18px;
+  margin-bottom: 10px;
+}
+
+.business-text {
+  position: relative;
+}
+
+#business-left .business-text::before {
+  content: "";
+  width: 8px;
+  height: 1px;
+  background-color: black;
+  display: inline-block;
+  margin-right: 5px;
+  position: absolute;
+  top: 50%;
+  left: -15px;
+}
+
+#business-right .business-text::before {
+  content: "";
+  width: 8px;
+  height: 1px;
+  background-color: black;
+  display: inline-block;
+  margin-right: 5px;
+  position: absolute;
+  top: 50%;
+  left: -15px;
+}
+
+/* COMPANY */
+#COMPANY {
+  margin-bottom: 300px;
+  padding-left: 3rem;
+  height: 400px;
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.information > div {
+  width: 100%;
+}
+
+.information > img {
+  width: 56%;
+  height: 400px;
+  object-fit: cover;
+  margin-top: 40px;
+}
+
+dl {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  line-height: 2.3em;
+}
+
+dt {
+  width: 20%;
+  font-size: 0.875rem;
+}
+
+dd {
+  width: 80%;
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.add {
+  margin-left: 20%;
+}
+
+/* footer */
+footer {
+  padding: 0 1rem;
+  padding-bottom: 10px;
+}
+
+footer > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer > div > img {
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+footer > p {
+  font-size: 0.625rem;
+}
+
+@media screen and (max-width: 900px) {
+  /* header */
+  #top {
+    width: 80px;
+    position: absolute;
+    top: 15px;
+  }
+
+  nav > div > ul {
+    padding: 0 1rem;
+    position: absolute;
+    top: 35px;
+    left: 0px;
+  }
+
+  .call {
+    display: none;
+  }
+
+  /* main */
+  #main-visual {
+    height: 640px;
+    margin-bottom: 80px;
+  }
+
+  #main-visual > img {
+    height: 640px;
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  /* NEWS */
+  #NEWS {
+    margin-bottom: 80px;
+  }
+
+  #news {
+    border: 0;
+    padding: 5px 0;
+  }
+
+  #press {
+    border: 0;
+    padding: 5px 0;
+    margin-left: 0;
+  }
+
+  #secondnews {
+    margin-left: 0;
+    margin-top: 25px;
+    padding: 5px 0;
+  }
+
+  #NEWS > ul {
+    display: block;
+  }
+
+  /* ABOUT */
+  #ABOUT {
+    margin-bottom: 80px;
+  }
+
+  #ABOUT > div {
+    display: block;
+  }
+
+  #ABOUT > div > img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  #ABOUT > div > div {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  /* BUSINESS */
+  #BUSINESS {
+    margin-bottom: 80px;
+  }
+
+  #business-introduction {
+    display: block;
+    margin: 0;
+  }
+
+  #business-left {
+    margin: 0;
+    padding: 0;
+  }
+
+  #business-right {
+    margin: 0;
+    padding: 0;
+  }
+
+  #business-left > div {
+    margin: 0;
+    margin-bottom: 10px;
+    height: 263px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  #business-right > div {
+    margin: 0;
+    margin-bottom: 10px;
+    height: 263px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  /* COMPANY */
+  #COMPANY {
+    height: 1050px;
+    padding: 0;
+    padding: 0 1rem;
+    margin-bottom: 0;
+  }
+
+  .information {
+    display: block;
+  }
+
+  .information > div {
+    padding-left: 1rem;
+  }
+
+  .information > img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  dl {
+    display: block;
+    line-height: 1.8rem;
+  }
+
+  dd {
+    margin-left: 15px;
+  }
+
+  .add {
+    margin-left: 15px;
+  }
+
+  /* footer */
+  footer {
+    padding-top: 30px;
+  }
+
+  footer > div {
+    display: block;
+  }
+
+  #end {
+    width: 80px;
+    margin: 0;
+  }
+
+  footer > div > div > p {
+    margin-top: 5px;
+    margin-bottom: 40px;
+  }
+}
